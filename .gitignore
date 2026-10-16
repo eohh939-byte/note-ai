@@ -1,0 +1,21 @@
+# 依赖与构建产物
+node_modules/
+.next/
+.next_bak_*/
+out/
+
+# 自动生成
+next-env.d.ts
+*.tsbuildinfo
+
+# 日志
+*.log
+
+# 本地环境变量（含 API Key，禁止入库）
+.env.local
+.env*.local
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store

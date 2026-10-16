@@ -1,0 +1,11 @@
+{
+  "name": "智记 · AI 笔记整理本",
+  "short_name": "智记",
+  "description": "基于大模型的笔记整理本，支持电脑与平板触屏",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": []
+}

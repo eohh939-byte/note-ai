@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+/* 触屏友好：按钮、可点击元素最小 44px 命中区 */
+button,
+[role="button"] {
+  min-height: 44px;
+  touch-action: manipulation;
+}
+
+/* 平板/手机下编辑器留白更克制 */
+@media (max-width: 768px) {
+  .editor-shell {
+    padding: 0 12px;
+  }
+}
